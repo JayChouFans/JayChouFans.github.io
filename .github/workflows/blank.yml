@@ -19,9 +19,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: y4code/hexo-deploy-action@master
+      uses: JamesIves/github-pages-deploy-action@master
       env:
-        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_REPOSITORY: JayChouFans/JayChouFans.github.io # The repository the action should deploy to.
-        BRANCH: master  # The branch the action should deploy to.
-        PUBLISH_DIR: ./public # The folder the action should deploy.
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BASE_BRANCH: hexo
+        BRANCH: master
+        FOLDER: public
+        BUILD_SCRIPT: npm i -g hexo && npm install && hexo generate
