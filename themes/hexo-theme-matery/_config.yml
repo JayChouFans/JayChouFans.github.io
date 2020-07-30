@@ -1,25 +1,22 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
-  Index:
+  首页:
     url: /
     icon: fas fa-home
-  Tags:
+  标签:
     url: /tags
     icon: fas fa-tags
-  Categories:
+  分类:
     url: /categories
     icon: fas fa-bookmark
-  Archives:
+  归档:
     url: /archives
     icon: fas fa-archive
-  About:
+  关于:
     url: /about
-    icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
-  Friends:
+    icon: fas fa-user-circle-o
+  友情链接:
     url: /friends
     icon: fas fa-address-book
   # 二级菜单写法如下
@@ -42,7 +39,7 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
+  enable: true
   year: 2020 # 年份
   month: 04 # 月份
   date: 29 # 日期
@@ -92,11 +89,11 @@ music:
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: false
+  enable: true
   showTitle: true
   title: 精彩视频
-  url: # 必填
-  pic:
+  url: /medias/videos/demo.mp4 # 必填
+  pic: /medias/videos/demo-pic.png
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
@@ -123,9 +120,9 @@ logo: /medias/logo.png
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
   enable: true
-  name: Github
-  icon: fab fa-github-alt
-  url: https://github.com/ly641921791
+  name: 下载主题
+  icon: fab fa-cloud-download
+  url: https://codeload.github.com/blinkfox/hexo-theme-matery/zip/master
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -189,10 +186,10 @@ mathjax:
 postInfo:
   date: true # 发布日期
   update: false # 更新日期
-  wordCount: false # 文章字数统计
-  totalCount: false # 站点总文章字数
-  min2read: false # 文章阅读时长
-  readCount: false # 文章阅读次数
+  wordCount: true # 文章字数统计
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
+  readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -203,8 +200,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  career: 软件工程师
+  introduction: 现实的抽象是语言，语言的抽象是程序，程序的抽象是数理逻辑，数理逻辑的抽象是超越认知的真理。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -213,10 +210,10 @@ myProjects:
   enable: true
   data:
     hexo-theme-matery:
-      icon: fas fa-file-alt
+      icon: fas fa-rocket
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
+      desc: 一个采用 Material Design 和响应式设计的 Hexo 博客主题。
     Fenix:
         icon: fas fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
@@ -226,7 +223,22 @@ myProjects:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
         url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+        desc: 这是 Typora Markdown 编辑器的类似 Vue 文档风格的主题。
+    stalker:
+      icon: fas fa-compress
+      iconBackground: 'linear-gradient(135deg, #e079fc 0%, #7c44ff 100%)'
+      url: https://github.com/blinkfox/stalker
+      desc: 这是一个简单的用来对 Java 代码做性能评估的工具库。
+    mini-table:
+      icon: fas fa-table
+      iconBackground: 'linear-gradient(135deg, #309286 0%, #32dbc6 100%)'
+      url: https://github.com/blinkfox/mini-table
+      desc: 这是一个轻量级、零依赖、可定制化修改的 Java ASCII 表格生成库。
+    Java-Style:
+      icon: fas fa-coffee
+      iconBackground: 'linear-gradient(135deg, #ffeb3b 0%, #ff9900 100%)'
+      url: https://blinkfox.github.io/java-style
+      desc: Blinkfox Java 编程风格指南，包含 checkstyle 和可导入 IDEA 中的格式化文件。
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -236,7 +248,7 @@ mySkills:
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 85%
+      percent: 90%
     JavaScript:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 80%
@@ -251,7 +263,7 @@ mySkills:
       percent: 90%
     程序设计:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 75%
+      percent: 80%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
@@ -304,9 +316,9 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
+  enable: true
+  appId: walGri1r5M5uoIGyTzIAn18j-gzGzoHsz
+  appKey: 9rhi2mz9tOnsw8VA4EfglY9k
   notify: false
   verify: false
   visitor: true
@@ -483,7 +495,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: false
+  enable: true
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -493,7 +505,7 @@ ribbon:
 ribbon_dynamic:
   enable: false
 
-# sharejs文章分享模块.
+# sharejs 文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
   enable: true
