@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>系统设计</title>
+      <link href="/2020/07/08/system-design/system-design/"/>
+      <url>/2020/07/08/system-design/system-design/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://www.zhihu.com/question/62813754" target="_blank" rel="noopener">用户行为分析 - SPM</a></p><p><a href="https://mp.weixin.qq.com/s/eKc8qoqNCgqrnont2nYNgA" target="_blank" rel="noopener">监控系统选型，这篇不可不读！</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 系统设计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java 日志</title>
+      <link href="/2020/06/08/java/java-log/"/>
+      <url>/2020/06/08/java/java-log/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java-日志"><a href="#Java-日志" class="headerlink" title="Java 日志"></a>Java 日志</h2><h3 id="框架选择"><a href="#框架选择" class="headerlink" title="框架选择"></a>框架选择</h3><p>使用 SLF4J 方便日后切换日志实现，实现方式使用 Logback</p><h3 id="打印时机"><a href="#打印时机" class="headerlink" title="打印时机"></a>打印时机</h3><ul><li>进入分支结构前，通过日志确定代码走向</li><li>寻找 BUG 时，通过日志定位 BUG</li><li>抛出异常时，不应该打印日志，由最终处理方处理</li></ul><h3 id="日志格式"><a href="#日志格式" class="headerlink" title="日志格式"></a>日志格式</h3><p>使用 [] 进行变量隔离，参数化信息的方式，debug 需判断是否启用，如下：</p><pre><code>if (logger.isDebugEnabled()) {    logger.debug(&quot;Processing trade with id:[{}] and symbol : [{}] &quot;, id, symbol);}</code></pre><h3 id="不同级别的使用"><a href="#不同级别的使用" class="headerlink" title="不同级别的使用"></a>不同级别的使用</h3><h4 id="ERROR"><a href="#ERROR" class="headerlink" title="ERROR"></a>ERROR</h4><p>影响程序正常运行、当前请求正常执行的异常，如果可以，记录当前堆栈信息</p><ul><li>打开配置文件失败</li><li>第三方服务异常</li><li>影响功能使用的异常</li></ul><h4 id="WARN"><a href="#WARN" class="headerlink" title="WARN"></a>WARN</h4><p>不影响程序正常运行、当前请求正常执行但又不应该出现的异常情况</p><ul><li>有容错机制时出现的异常情况</li><li>打开配置文件失败，启用默认配置的情况</li><li>接近临界值的情况，如：缓存容量即将不足</li><li>业务异常</li></ul><h4 id="INFO"><a href="#INFO" class="headerlink" title="INFO"></a>INFO</h4><ul><li>系统运行情况</li><li>数据变更</li><li>复杂代码逻辑打点</li><li>第三方调用的入参和出参</li></ul><h4 id="DEBUG"><a href="#DEBUG" class="headerlink" title="DEBUG"></a>DEBUG</h4><ul><li>便于分析代码执行的点</li><li>生产需关闭，设置启停开关功能，需要开启的情况，短暂开启</li><li>利用 debug 功能代替代码中的注释</li></ul><h4 id="TRACE"><a href="#TRACE" class="headerlink" title="TRACE"></a>TRACE</h4><p>特别详细的系统运行完成信息</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Nacos 应用</title>
+      <link href="/2020/06/05/nacos/nacos-applications/"/>
+      <url>/2020/06/05/nacos/nacos-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Nacos-应用"><a href="#Nacos-应用" class="headerlink" title="Nacos 应用"></a>Nacos 应用</h2><p><a href="https://blog.csdn.net/u012921921/article/details/106521290/" target="_blank" rel="noopener">如何将注册中心从 Consul /Zookeeper平滑的迁移到 Nacos ？</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nacos </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nacos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Dubbo 应用</title>
+      <link href="/2020/06/02/dubbo/dubbo-applications/"/>
+      <url>/2020/06/02/dubbo/dubbo-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Dubbo-应用"><a href="#Dubbo-应用" class="headerlink" title="Dubbo 应用"></a>Dubbo 应用</h2><h4 id="利用springboot-dubbo，构建分布式微服务，全程注解开发"><a href="#利用springboot-dubbo，构建分布式微服务，全程注解开发" class="headerlink" title="利用springboot+dubbo，构建分布式微服务，全程注解开发"></a><a href="https://blog.csdn.net/javageektech/article/details/106233106" target="_blank" rel="noopener">利用springboot+dubbo，构建分布式微服务，全程注解开发</a></h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> Dubbo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dubbo </tag>
+            
+            <tag> Spring Boot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>通过 Docker 安装 Zookeeper</title>
+      <link href="/2020/06/01/zookeeper/install/install-zookeeper-via-docker/"/>
+      <url>/2020/06/01/zookeeper/install/install-zookeeper-via-docker/</url>
+      
+        <content type="html"><![CDATA[<h2 id="通过-Docker-安装-Zookeeper"><a href="#通过-Docker-安装-Zookeeper" class="headerlink" title="通过 Docker 安装 Zookeeper"></a>通过 Docker 安装 Zookeeper</h2><p><a href="https://juejin.im/post/5ed4b62751882543464b14ff" target="_blank" rel="noopener">史上最便捷搭建Zookeeper服务器的方法</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Zookeeper </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Zookeeper </tag>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RocketMQ 应用</title>
+      <link href="/2020/05/28/rocketmq/rocketmq-applications/"/>
+      <url>/2020/05/28/rocketmq/rocketmq-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="RocketMQ-应用"><a href="#RocketMQ-应用" class="headerlink" title="RocketMQ 应用"></a>RocketMQ 应用</h2><p><a href="https://juejin.im/post/5ea159e4f265da47f0794da5" target="_blank" rel="noopener">实战：RocketMQ削峰，这一篇就够了</a></p><p>关键字：点赞</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> RocketMQ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> RocketMQ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RabbitMQ 应用</title>
+      <link href="/2020/05/28/rabbitmq/rabbitmq-applications/"/>
+      <url>/2020/05/28/rabbitmq/rabbitmq-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="RabbitMQ-应用"><a href="#RabbitMQ-应用" class="headerlink" title="RabbitMQ 应用"></a>RabbitMQ 应用</h2><p><a href="https://www.jianshu.com/p/dca01aad6bc8" target="_blank" rel="noopener">springboot + rabbitmq发送邮件(保证消息100%投递成功并被消费)</a></p><p><a href="https://www.cnblogs.com/throwable/p/12266806.html" target="_blank" rel="noopener">一个基于RabbitMQ的可复用的事务消息方案</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> RabbitMQ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> RabbitMQ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Spring Web MVC 错误处理</title>
+      <link href="/2020/05/28/spring/spring-boot/spring-web-mvc/spring-web-mvc-error-handling/"/>
+      <url>/2020/05/28/spring/spring-boot/spring-web-mvc/spring-web-mvc-error-handling/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Spring-Web-MVC-错误处理"><a href="#Spring-Web-MVC-错误处理" class="headerlink" title="Spring Web MVC 错误处理"></a>Spring Web MVC 错误处理</h2><h4 id="默认错误处理流程"><a href="#默认错误处理流程" class="headerlink" title="默认错误处理流程"></a>默认错误处理流程</h4><p>Spring Boot 默认提供 <code>/error</code> 映射注册在 Servlet 容器中用来处理全部错误请求</p><p>Spring Boot 启动时注册了 <code>ErrorMvcAutoConfiguration</code> 自动配置类，用于注册错误处理相关的 Bean，其中包括：</p><ul><li>BasicErrorController ：提供了返回错误页面（优先根据错误码返回视图，没有则返回 error 视图）和错误数据（默认 JSON 格式）的 RequestMapping</li><li>DefaultErrorAttributes ：用于解析错误请求的属性</li><li>DefaultErrorViewResolver : 错误视图解析器</li><li>其他错误处理相关 bean</li></ul><p>错误处理流程，以页面访问错误为例</p><ol><li>错误请求映射到 BasicErrorController#errorHtml</li><li>通过 ErrorAttributes 解析请求得到错误属性，默认为 DefaultErrorAttributes</li><li>通过 ErrorViewResolver 解析得到错误视图</li><li>若错误视图不为空，则返回，否则返回默认视图 error</li></ol><p>可以通过替换流程中用到的 Bean 修改默认错误处理</p><h4 id="根据错误码返回错误视图"><a href="#根据错误码返回错误视图" class="headerlink" title="根据错误码返回错误视图"></a>根据错误码返回错误视图</h4><p>在静态资源文件夹下添加 error 文件夹，并添加错误码命名的静态页面，可以作为该错误码的错误视图，以 static 文件夹为例</p><pre><code>src/+- main/    +- java/    | + &lt;source code&gt;    +- resources/        +- static/            +- error/            | +- 404.html            | +- 5xx.html            +- &lt;other static assets&gt;</code></pre><p>以上文件结构表示，错误码为404时，返回404.html页面，错误码以5开头时，返回5xx.html页面</p><p>同时，错误页面还支持模板引擎，在模板引擎文件夹下添加 error 文件夹，并添加错误码命名的模板页面，作为该错误码的模板视图，以 <code>FreeMarker</code> 为例</p><pre><code>src/+- main/    +- java/    | + &lt;source code&gt;    +- resources/        +- templates/            +- error/            | +- 404.ftlh            | +- 5xx.html            +- &lt;other templates&gt;</code></pre><h4 id="通过-ErrorController-处理错误请求"><a href="#通过-ErrorController-处理错误请求" class="headerlink" title="通过 ErrorController 处理错误请求"></a>通过 ErrorController 处理错误请求</h4><p>Spring Boot 默认注册了 <code>ErrorController</code> 或 <code>ErrorAttributes</code>，</p><p>希望完全替换默认行为，可以向 Spring 容器中注册 <code>ErrorController</code> 或 <code>ErrorAttributes</code> 类型的 Bean</p><p>通过 <code>ErrorController</code> 处理错误时，可以将 <code>BasicErrorController</code> 作为父类</p><h4 id="通过-ControllerAdvice-处理错误请求"><a href="#通过-ControllerAdvice-处理错误请求" class="headerlink" title="通过 @ControllerAdvice 处理错误请求"></a>通过 @ControllerAdvice 处理错误请求</h4><p>通过 <code>@ControllerAdvice</code> 可以细粒度的处理错误请求，具体到包和异常类型，用法如下</p><ul><li>通过 <code>@ControllerAdvice</code> 注解指定当前类处理错误请求的包，默认当前类所在包。功能类似的注解有：<code>@RestControllerAdvice</code></li><li>通过 <code>@ExceptionHandler</code> 注解指定当前方法处理错误请求的异常类型，默认全部异常类型</li></ul><p>示例如下</p><pre class=" language-java"><code class="language-java"><span class="token annotation punctuation">@ControllerAdvice</span><span class="token punctuation">(</span>basePackageClasses <span class="token operator">=</span> CustomController<span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CustomControllerAdvice</span> <span class="token keyword">extends</span> <span class="token class-name">ResponseEntityExceptionHandler</span> <span class="token punctuation">{</span>    <span class="token annotation punctuation">@ResponseBody</span>    <span class="token annotation punctuation">@ExceptionHandler</span><span class="token punctuation">(</span>CustomException<span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>    ResponseEntity<span class="token operator">&lt;</span><span class="token operator">?</span><span class="token operator">></span> <span class="token function">handleControllerException</span><span class="token punctuation">(</span>HttpServletRequest request<span class="token punctuation">,</span> Throwable ex<span class="token punctuation">)</span> <span class="token punctuation">{</span>        HttpStatus status <span class="token operator">=</span> <span class="token function">getStatus</span><span class="token punctuation">(</span>request<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">ResponseEntity</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">CustomErrorType</span><span class="token punctuation">(</span>status<span class="token punctuation">.</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>ex<span class="token punctuation">.</span><span class="token function">getMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> status<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token keyword">private</span> HttpStatus <span class="token function">getStatus</span><span class="token punctuation">(</span>HttpServletRequest request<span class="token punctuation">)</span> <span class="token punctuation">{</span>        Integer statusCode <span class="token operator">=</span> <span class="token punctuation">(</span>Integer<span class="token punctuation">)</span><span class="token punctuation">;</span>        request<span class="token punctuation">.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token string">"javax.servlet.error.status_code"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>statusCode <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>            <span class="token keyword">return</span> HttpStatus<span class="token punctuation">.</span>INTERNAL_SERVER_ERROR<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">return</span> HttpStatus<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>statusCode<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><h4 id="通过-ErrorViewResolver-解析错误视图"><a href="#通过-ErrorViewResolver-解析错误视图" class="headerlink" title="通过 ErrorViewResolver 解析错误视图"></a>通过 ErrorViewResolver 解析错误视图</h4><p>通过 <code>ErrorViewResolver</code> 可以自定义视图解析方式，用法如下</p><pre class=" language-java"><code class="language-java"><span class="token annotation punctuation">@Component</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CustomErrorViewResolver</span> <span class="token keyword">implements</span> <span class="token class-name">ErrorViewResolver</span> <span class="token punctuation">{</span>    <span class="token annotation punctuation">@Override</span>    <span class="token keyword">public</span> ModelAndView <span class="token function">resolveErrorView</span><span class="token punctuation">(</span>HttpServletRequest request<span class="token punctuation">,</span> HttpStatus status<span class="token punctuation">,</span> Map<span class="token operator">&lt;</span>String<span class="token punctuation">,</span> Object<span class="token operator">></span> model<span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token comment" spellcheck="true">// Use the request or status to optionally return a ModelAndView</span>        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">ModelAndView</span><span class="token punctuation">(</span><span class="token string">"viewName"</span><span class="token punctuation">,</span> model<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><h4 id="通过-ErrorPageRegistrar-注册错误视图"><a href="#通过-ErrorPageRegistrar-注册错误视图" class="headerlink" title="通过 ErrorPageRegistrar 注册错误视图"></a>通过 ErrorPageRegistrar 注册错误视图</h4><p>通过 <code>ErrorPageRegistrar</code> 注册错误页面，如下</p><pre class=" language-java"><code class="language-java"><span class="token annotation punctuation">@Component</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CustomErrorPageRegistrar</span> <span class="token keyword">implements</span> <span class="token class-name">ErrorPageRegistrar</span> <span class="token punctuation">{</span>    <span class="token annotation punctuation">@Override</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">registerErrorPages</span><span class="token punctuation">(</span>ErrorPageRegistry registry<span class="token punctuation">)</span> <span class="token punctuation">{</span>        registry<span class="token punctuation">.</span><span class="token function">addErrorPages</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ErrorPage</span><span class="token punctuation">(</span>HttpStatus<span class="token punctuation">.</span>BAD_REQUEST<span class="token punctuation">,</span> <span class="token string">"/400"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p>ErrorPageRegistrarBeanPostProcessor 会将所有的 ErrorPageRegistrar 处理，注册错误页面</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Spring Boot </tag>
+            
+            <tag> Spring </tag>
+            
+            <tag> Spring Web MVC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>thymeleaf 常见问题</title>
+      <link href="/2020/05/21/thymeleaf/thymeleaf-faq/"/>
+      <url>/2020/05/21/thymeleaf/thymeleaf-faq/</url>
+      
+        <content type="html"><![CDATA[<h2 id="thymeleaf-常见问题"><a href="#thymeleaf-常见问题" class="headerlink" title="thymeleaf 常见问题"></a>thymeleaf 常见问题</h2><p>org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression</p><p>在使用 layui 的 table 模块时，可能会出现如上错误，原因是 [[…]] 会被认为是内联表达式，引起渲染报错，解决方案是，换行处理，如下</p><pre><code>[    [        // 内容    ]]</code></pre><p>参考 <a href="https://blog.csdn.net/ystyaoshengting/article/details/84773952" target="_blank" rel="noopener">https://blog.csdn.net/ystyaoshengting/article/details/84773952</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> thymeleaf </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> thymeleaf </tag>
+            
+            <tag> layui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java 常用类库和 API</title>
+      <link href="/2020/05/16/java/java-kit/"/>
+      <url>/2020/05/16/java/java-kit/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java-常用类库和-API"><a href="#Java-常用类库和-API" class="headerlink" title="Java 常用类库和 API"></a>Java 常用类库和 API</h2><h3 id="通用类库"><a href="#通用类库" class="headerlink" title="通用类库"></a>通用类库</h3><p>Apache Commons</p><p>Google Guava</p><h3 id="Http"><a href="#Http" class="headerlink" title="Http"></a>Http</h3><p>Apache HttpClient</p><p>HttpCore</p><p>JDK9 HTTP 2.0</p><h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3><p>Log4j</p><p>Slf4j</p><p>LogBack</p><h3 id="JSON-解析"><a href="#JSON-解析" class="headerlink" title="JSON 解析"></a>JSON 解析</h3><p>Jackson</p><p>Gson</p><h3 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h3><p>JUnit</p><p>Mockito</p><p>PowerMock</p><h3 id="XML-解析"><a href="#XML-解析" class="headerlink" title="XML 解析"></a>XML 解析</h3><p>Xerces</p><p>Xerces2 下一代高性能、完全兼容的 XML 解析工具</p><p>JAXB</p><p>JAXP</p><p>Dom4j</p><p>Xstream</p><h3 id="Excel-读写库"><a href="#Excel-读写库" class="headerlink" title="Excel 读写库"></a>Excel 读写库</h3><p>Apache POI</p><h3 id="字节码库"><a href="#字节码库" class="headerlink" title="字节码库"></a>字节码库</h3><p>javassist</p><p>Cglib Nodep</p><p>ASM</p><h3 id="数据库连接池"><a href="#数据库连接池" class="headerlink" title="数据库连接池"></a>数据库连接池</h3><p>Commons Pool</p><p>DBCP</p><h3 id="消息传递库-JMS"><a href="#消息传递库-JMS" class="headerlink" title="消息传递库 JMS"></a>消息传递库 JMS</h3><p>jms.jar</p><p>Tibco RV</p><h3 id="PDF-处理库"><a href="#PDF-处理库" class="headerlink" title="PDF 处理库"></a>PDF 处理库</h3><p>iText</p><p>Apache FOP</p><h3 id="日期和时间库"><a href="#日期和时间库" class="headerlink" title="日期和时间库"></a>日期和时间库</h3><p>JodaTime</p><p>JDK8 内置</p><h3 id="集合类库"><a href="#集合类库" class="headerlink" title="集合类库"></a>集合类库</h3><p>Apache Commons Collections</p><p>Goldman Sachs collections</p><p>Google Collections</p><p>Trove</p><p>FastUtil</p><h3 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h3><p>javax.mail</p><p>Apache Commons Email</p><h3 id="HTML-解析库"><a href="#HTML-解析库" class="headerlink" title="HTML 解析库"></a>HTML 解析库</h3><p>jsoup</p><h3 id="加密库"><a href="#加密库" class="headerlink" title="加密库"></a>加密库</h3><p>Apache Commons Codec</p><h3 id="嵌入式-SQL-数据库"><a href="#嵌入式-SQL-数据库" class="headerlink" title="嵌入式 SQL 数据库"></a>嵌入式 SQL 数据库</h3><p>H2 </p><p>Apache Derby</p><p>HSQL</p><h3 id="JDBC-故障诊断"><a href="#JDBC-故障诊断" class="headerlink" title="JDBC 故障诊断"></a>JDBC 故障诊断</h3><p>P6spy</p><h3 id="序列化"><a href="#序列化" class="headerlink" title="序列化"></a>序列化</h3><p>Google Protocol Buffer</p><h3 id="网络库"><a href="#网络库" class="headerlink" title="网络库"></a>网络库</h3><p>Netty</p><p>Apache MINA</p><h3 id="转换工具"><a href="#转换工具" class="headerlink" title="转换工具"></a>转换工具</h3><p><a href="https://github.com/vsch/flexmark-java" target="_blank" rel="noopener">flexmark</a>支持HTML to MD，MD to PDF，MD to DOCX</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Shiro 应用</title>
+      <link href="/2020/05/15/shiro/shiro-applications/"/>
+      <url>/2020/05/15/shiro/shiro-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Shiro-应用"><a href="#Shiro-应用" class="headerlink" title="Shiro 应用"></a>Shiro 应用</h2><p><a href="https://blog.csdn.net/MarkerHub/article/details/106281021" target="_blank" rel="noopener">只需要6个步骤，springboot集成shiro，并完成登录</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Shiro </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shiro </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Zookeeper 应用</title>
+      <link href="/2020/03/05/zookeeper/zookeeper-applications/"/>
+      <url>/2020/03/05/zookeeper/zookeeper-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Zookeeper-应用"><a href="#Zookeeper-应用" class="headerlink" title="Zookeeper 应用"></a>Zookeeper 应用</h2><p><a href="https://www.sohu.com/a/377884242_463994" target="_blank" rel="noopener">为什么Zookeeper天生就是一副分布式锁的胚子？</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Zookeeper </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Zookeeper </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Seata 应用</title>
+      <link href="/2019/11/26/seata/seata-applications/"/>
+      <url>/2019/11/26/seata/seata-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Seata-应用"><a href="#Seata-应用" class="headerlink" title="Seata 应用"></a>Seata 应用</h2><p><a href="https://www.jianshu.com/p/21782150f043" target="_blank" rel="noopener">使用Seata彻底解决Spring Cloud中的分布式事务问题！</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Seata </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Seata </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Redis 应用</title>
+      <link href="/2019/07/25/redis/redis-applications/"/>
+      <url>/2019/07/25/redis/redis-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Redis-应用"><a href="#Redis-应用" class="headerlink" title="Redis 应用"></a>Redis 应用</h2><p><a href="https://www.jianshu.com/p/9e1e6adbb713" target="_blank" rel="noopener">阿里云Redis的规范：键值设计、命令使用、客户端使用、相关工具</a></p><p><a href="https://www.cnblogs.com/linlinismine/p/9214299.html" target="_blank" rel="noopener">我是如何用redis做实时订阅推送的</a></p><p><a href="https://juejin.im/post/5bdc257e6fb9a049ba410098" target="_blank" rel="noopener">点赞模块设计 - Redis缓存 + 定时写入数据库实现高性能点赞功能</a></p><p><a href="https://www.toutiao.com/i6695734985246114312/" target="_blank" rel="noopener">拼多多后台开发面试真题：如何用Redis统计独立用户访问量</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Redis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySQL 应用</title>
+      <link href="/2019/07/08/mysql/mysql-applications/"/>
+      <url>/2019/07/08/mysql/mysql-applications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="MySQL-应用"><a href="#MySQL-应用" class="headerlink" title="MySQL 应用"></a>MySQL 应用</h2><p><a href="https://www.cnblogs.com/YangJiaXin/p/11153579.html" target="_blank" rel="noopener">MySQL 全文索引实现简单版搜索引擎</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySQL 高可用</title>
+      <link href="/2018/11/08/mysql/mysql-high-availability/"/>
+      <url>/2018/11/08/mysql/mysql-high-availability/</url>
+      
+        <content type="html"><![CDATA[<h2 id="MySQL-高可用"><a href="#MySQL-高可用" class="headerlink" title="MySQL 高可用"></a>MySQL 高可用</h2><p><a href="https://cloud.tencent.com/developer/article/1360981" target="_blank" rel="noopener">如何设计和实现高可用的MySQL</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

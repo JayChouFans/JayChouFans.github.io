@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>东京易冷</title>
+  
+  <subtitle>东京易冷</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jaychoufans.github.io/"/>
+  <updated>2020-11-25T04:57:41.138Z</updated>
+  <id>https://jaychoufans.github.io/</id>
+  
+  <author>
+    <name>东京易冷</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>系统设计</title>
+    <link href="https://jaychoufans.github.io/2020/07/08/system-design/system-design/"/>
+    <id>https://jaychoufans.github.io/2020/07/08/system-design/system-design/</id>
+    <published>2020-07-08T17:07:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/62813754&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;用户行为分析 - SPM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="系统设计" scheme="https://jaychoufans.github.io/categories/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="系统设计" scheme="https://jaychoufans.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 日志</title>
+    <link href="https://jaychoufans.github.io/2020/06/08/java/java-log/"/>
+    <id>https://jaychoufans.github.io/2020/06/08/java/java-log/</id>
+    <published>2020-06-08T23:10:14.000Z</published>
+    <updated>2020-11-25T04:57:41.134Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Java-日志&quot;&gt;&lt;a href=&quot;#Java-日志&quot; class=&quot;headerlink&quot; title=&quot;Java 日志&quot;&gt;&lt;/a&gt;Java 日志&lt;/h2&gt;&lt;h3 id=&quot;框架选择&quot;&gt;&lt;a href=&quot;#框架选择&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://jaychoufans.github.io/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="https://jaychoufans.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nacos 应用</title>
+    <link href="https://jaychoufans.github.io/2020/06/05/nacos/nacos-applications/"/>
+    <id>https://jaychoufans.github.io/2020/06/05/nacos/nacos-applications/</id>
+    <published>2020-06-05T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.134Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Nacos-应用&quot;&gt;&lt;a href=&quot;#Nacos-应用&quot; class=&quot;headerlink&quot; title=&quot;Nacos 应用&quot;&gt;&lt;/a&gt;Nacos 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Nacos" scheme="https://jaychoufans.github.io/categories/Nacos/"/>
+    
+    
+      <category term="Nacos" scheme="https://jaychoufans.github.io/tags/Nacos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dubbo 应用</title>
+    <link href="https://jaychoufans.github.io/2020/06/02/dubbo/dubbo-applications/"/>
+    <id>https://jaychoufans.github.io/2020/06/02/dubbo/dubbo-applications/</id>
+    <published>2020-06-02T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.134Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Dubbo-应用&quot;&gt;&lt;a href=&quot;#Dubbo-应用&quot; class=&quot;headerlink&quot; title=&quot;Dubbo 应用&quot;&gt;&lt;/a&gt;Dubbo 应用&lt;/h2&gt;&lt;h4 id=&quot;利用springboot-dubbo，构建分布式微服务，全程注解开发&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Dubbo" scheme="https://jaychoufans.github.io/categories/Dubbo/"/>
+    
+    
+      <category term="Dubbo" scheme="https://jaychoufans.github.io/tags/Dubbo/"/>
+    
+      <category term="Spring Boot" scheme="https://jaychoufans.github.io/tags/Spring-Boot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过 Docker 安装 Zookeeper</title>
+    <link href="https://jaychoufans.github.io/2020/06/01/zookeeper/install/install-zookeeper-via-docker/"/>
+    <id>https://jaychoufans.github.io/2020/06/01/zookeeper/install/install-zookeeper-via-docker/</id>
+    <published>2020-06-01T00:14:18.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;通过-Docker-安装-Zookeeper&quot;&gt;&lt;a href=&quot;#通过-Docker-安装-Zookeeper&quot; class=&quot;headerlink&quot; title=&quot;通过 Docker 安装 Zookeeper&quot;&gt;&lt;/a&gt;通过 Docker 安装
+        
+      
+    
+    </summary>
+    
+      <category term="Zookeeper" scheme="https://jaychoufans.github.io/categories/Zookeeper/"/>
+    
+    
+      <category term="Zookeeper" scheme="https://jaychoufans.github.io/tags/Zookeeper/"/>
+    
+      <category term="Docker" scheme="https://jaychoufans.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RocketMQ 应用</title>
+    <link href="https://jaychoufans.github.io/2020/05/28/rocketmq/rocketmq-applications/"/>
+    <id>https://jaychoufans.github.io/2020/05/28/rocketmq/rocketmq-applications/</id>
+    <published>2020-05-28T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;RocketMQ-应用&quot;&gt;&lt;a href=&quot;#RocketMQ-应用&quot; class=&quot;headerlink&quot; title=&quot;RocketMQ 应用&quot;&gt;&lt;/a&gt;RocketMQ 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="RocketMQ" scheme="https://jaychoufans.github.io/categories/RocketMQ/"/>
+    
+    
+      <category term="RocketMQ" scheme="https://jaychoufans.github.io/tags/RocketMQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RabbitMQ 应用</title>
+    <link href="https://jaychoufans.github.io/2020/05/28/rabbitmq/rabbitmq-applications/"/>
+    <id>https://jaychoufans.github.io/2020/05/28/rabbitmq/rabbitmq-applications/</id>
+    <published>2020-05-28T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;RabbitMQ-应用&quot;&gt;&lt;a href=&quot;#RabbitMQ-应用&quot; class=&quot;headerlink&quot; title=&quot;RabbitMQ 应用&quot;&gt;&lt;/a&gt;RabbitMQ 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="RabbitMQ" scheme="https://jaychoufans.github.io/categories/RabbitMQ/"/>
+    
+    
+      <category term="RabbitMQ" scheme="https://jaychoufans.github.io/tags/RabbitMQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring Web MVC 错误处理</title>
+    <link href="https://jaychoufans.github.io/2020/05/28/spring/spring-boot/spring-web-mvc/spring-web-mvc-error-handling/"/>
+    <id>https://jaychoufans.github.io/2020/05/28/spring/spring-boot/spring-web-mvc/spring-web-mvc-error-handling/</id>
+    <published>2020-05-28T23:04:46.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Spring-Web-MVC-错误处理&quot;&gt;&lt;a href=&quot;#Spring-Web-MVC-错误处理&quot; class=&quot;headerlink&quot; title=&quot;Spring Web MVC 错误处理&quot;&gt;&lt;/a&gt;Spring Web MVC 错误处理&lt;/h2&gt;&lt;h4
+        
+      
+    
+    </summary>
+    
+      <category term="Spring" scheme="https://jaychoufans.github.io/categories/Spring/"/>
+    
+    
+      <category term="Spring Boot" scheme="https://jaychoufans.github.io/tags/Spring-Boot/"/>
+    
+      <category term="Spring" scheme="https://jaychoufans.github.io/tags/Spring/"/>
+    
+      <category term="Spring Web MVC" scheme="https://jaychoufans.github.io/tags/Spring-Web-MVC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>thymeleaf 常见问题</title>
+    <link href="https://jaychoufans.github.io/2020/05/21/thymeleaf/thymeleaf-faq/"/>
+    <id>https://jaychoufans.github.io/2020/05/21/thymeleaf/thymeleaf-faq/</id>
+    <published>2020-05-21T21:47:43.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;thymeleaf-常见问题&quot;&gt;&lt;a href=&quot;#thymeleaf-常见问题&quot; class=&quot;headerlink&quot; title=&quot;thymeleaf 常见问题&quot;&gt;&lt;/a&gt;thymeleaf
+        
+      
+    
+    </summary>
+    
+      <category term="thymeleaf" scheme="https://jaychoufans.github.io/categories/thymeleaf/"/>
+    
+    
+      <category term="thymeleaf" scheme="https://jaychoufans.github.io/tags/thymeleaf/"/>
+    
+      <category term="layui" scheme="https://jaychoufans.github.io/tags/layui/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 常用类库和 API</title>
+    <link href="https://jaychoufans.github.io/2020/05/16/java/java-kit/"/>
+    <id>https://jaychoufans.github.io/2020/05/16/java/java-kit/</id>
+    <published>2020-05-16T00:06:46.000Z</published>
+    <updated>2020-11-25T04:57:41.134Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Java-常用类库和-API&quot;&gt;&lt;a href=&quot;#Java-常用类库和-API&quot; class=&quot;headerlink&quot; title=&quot;Java 常用类库和 API&quot;&gt;&lt;/a&gt;Java 常用类库和 API&lt;/h2&gt;&lt;h3 id=&quot;通用类库&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://jaychoufans.github.io/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="https://jaychoufans.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shiro 应用</title>
+    <link href="https://jaychoufans.github.io/2020/05/15/shiro/shiro-applications/"/>
+    <id>https://jaychoufans.github.io/2020/05/15/shiro/shiro-applications/</id>
+    <published>2020-05-15T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Shiro-应用&quot;&gt;&lt;a href=&quot;#Shiro-应用&quot; class=&quot;headerlink&quot; title=&quot;Shiro 应用&quot;&gt;&lt;/a&gt;Shiro 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Shiro" scheme="https://jaychoufans.github.io/categories/Shiro/"/>
+    
+    
+      <category term="Shiro" scheme="https://jaychoufans.github.io/tags/Shiro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Zookeeper 应用</title>
+    <link href="https://jaychoufans.github.io/2020/03/05/zookeeper/zookeeper-applications/"/>
+    <id>https://jaychoufans.github.io/2020/03/05/zookeeper/zookeeper-applications/</id>
+    <published>2020-03-05T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Zookeeper-应用&quot;&gt;&lt;a href=&quot;#Zookeeper-应用&quot; class=&quot;headerlink&quot; title=&quot;Zookeeper 应用&quot;&gt;&lt;/a&gt;Zookeeper 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Zookeeper" scheme="https://jaychoufans.github.io/categories/Zookeeper/"/>
+    
+    
+      <category term="Zookeeper" scheme="https://jaychoufans.github.io/tags/Zookeeper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Seata 应用</title>
+    <link href="https://jaychoufans.github.io/2019/11/26/seata/seata-applications/"/>
+    <id>https://jaychoufans.github.io/2019/11/26/seata/seata-applications/</id>
+    <published>2019-11-26T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Seata-应用&quot;&gt;&lt;a href=&quot;#Seata-应用&quot; class=&quot;headerlink&quot; title=&quot;Seata 应用&quot;&gt;&lt;/a&gt;Seata 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Seata" scheme="https://jaychoufans.github.io/categories/Seata/"/>
+    
+    
+      <category term="Seata" scheme="https://jaychoufans.github.io/tags/Seata/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis 应用</title>
+    <link href="https://jaychoufans.github.io/2019/07/25/redis/redis-applications/"/>
+    <id>https://jaychoufans.github.io/2019/07/25/redis/redis-applications/</id>
+    <published>2019-07-25T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Redis-应用&quot;&gt;&lt;a href=&quot;#Redis-应用&quot; class=&quot;headerlink&quot; title=&quot;Redis 应用&quot;&gt;&lt;/a&gt;Redis 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Redis" scheme="https://jaychoufans.github.io/categories/Redis/"/>
+    
+    
+      <category term="Redis" scheme="https://jaychoufans.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 应用</title>
+    <link href="https://jaychoufans.github.io/2019/07/08/mysql/mysql-applications/"/>
+    <id>https://jaychoufans.github.io/2019/07/08/mysql/mysql-applications/</id>
+    <published>2019-07-08T23:18:31.000Z</published>
+    <updated>2020-11-25T04:57:41.134Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;MySQL-应用&quot;&gt;&lt;a href=&quot;#MySQL-应用&quot; class=&quot;headerlink&quot; title=&quot;MySQL 应用&quot;&gt;&lt;/a&gt;MySQL 应用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="MySQL" scheme="https://jaychoufans.github.io/categories/MySQL/"/>
+    
+    
+      <category term="MySQL" scheme="https://jaychoufans.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL 高可用</title>
+    <link href="https://jaychoufans.github.io/2018/11/08/mysql/mysql-high-availability/"/>
+    <id>https://jaychoufans.github.io/2018/11/08/mysql/mysql-high-availability/</id>
+    <published>2018-11-08T17:07:31.000Z</published>
+    <updated>2020-11-25T04:57:41.134Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;MySQL-高可用&quot;&gt;&lt;a href=&quot;#MySQL-高可用&quot; class=&quot;headerlink&quot; title=&quot;MySQL 高可用&quot;&gt;&lt;/a&gt;MySQL 高可用&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="MySQL" scheme="https://jaychoufans.github.io/categories/MySQL/"/>
+    
+    
+      <category term="MySQL" scheme="https://jaychoufans.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+</feed>
